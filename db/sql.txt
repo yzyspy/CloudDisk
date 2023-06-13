@@ -1,0 +1,9 @@
+CREATE TABLE user_info (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(32),
+    pwd VARCHAR(32)
+);
+
+create table friend_info(id integer not null,
+   friend_id integer not null,
+   primary key(id, friend_id));
