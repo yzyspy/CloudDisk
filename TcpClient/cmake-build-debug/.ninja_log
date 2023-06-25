@@ -15,3 +15,15 @@
 452	3626	1687664809314566299	CMakeFiles/QtDemo.dir/mywidget.cpp.o	a05e3c2db0940e80
 451	3798	1687664809486532377	CMakeFiles/QtDemo.dir/main.cpp.o	30e0de7aa4215204
 3798	3929	1687664809628904820	QtDemo	2308f7130e3d5edc
+2	35	0	CMakeFiles/QtDemo_autogen	e008531e9125491b
+2	35	0	QtDemo_autogen/mocs_compilation.cpp	e008531e9125491b
+2	35	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/cmake-build-debug/CMakeFiles/QtDemo_autogen	e008531e9125491b
+2	35	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp	e008531e9125491b
+35	2108	1687675461672487555	CMakeFiles/QtDemo.dir/main.cpp.o	30e0de7aa4215204
+2109	2185	1687675461763621440	QtDemo	2308f7130e3d5edc
+3	29	0	CMakeFiles/QtDemo_autogen	e008531e9125491b
+3	29	0	QtDemo_autogen/mocs_compilation.cpp	e008531e9125491b
+3	29	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/cmake-build-debug/CMakeFiles/QtDemo_autogen	e008531e9125491b
+3	29	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp	e008531e9125491b
+29	1873	1687675648729050907	CMakeFiles/QtDemo.dir/main.cpp.o	30e0de7aa4215204
+1873	1921	1687675648789946211	QtDemo	2308f7130e3d5edc
