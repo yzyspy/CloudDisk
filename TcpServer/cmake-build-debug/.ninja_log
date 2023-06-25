@@ -1,0 +1,23 @@
+# ninja log v5
+1	563	0	CMakeFiles/QtDemo_autogen	61303dd093e0137e
+1	563	0	QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e
+1	563	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/QtDemo_autogen	61303dd093e0137e
+1	563	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e
+563	1876	1687187801401461546	CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.o	45b292a8d47c7797
+563	1878	1687187801401320717	CMakeFiles/QtDemo.dir/mywidget.cpp.o	7f3a66e08981c02d
+563	2081	1687187801608286368	CMakeFiles/QtDemo.dir/main.cpp.o	7841ce5a8963c683
+2082	2170	1687187801711686170	QtDemo	2308f7130e3d5edc
+2	22	0	CMakeFiles/QtDemo_autogen	61303dd093e0137e
+2	22	0	QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e
+2	22	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/QtDemo_autogen	61303dd093e0137e
+2	22	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e
+2	36	0	CMakeFiles/QtDemo_autogen	61303dd093e0137e
+2	36	0	QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e
+2	36	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/QtDemo_autogen	61303dd093e0137e
+2	36	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e
+37	2724	1687664995399995197	CMakeFiles/QtDemo.dir/main.cpp.o	7841ce5a8963c683
+2726	2794	1687664995495973802	QtDemo	2308f7130e3d5edc
+4	20	0	CMakeFiles/QtDemo_autogen	61303dd093e0137e
+4	20	0	QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e
+4	20	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/QtDemo_autogen	61303dd093e0137e
+4	20	0	/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp	61303dd093e0137e

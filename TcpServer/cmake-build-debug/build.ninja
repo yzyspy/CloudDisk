@@ -1,0 +1,188 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: PlaneClient
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target QtDemo
+
+
+#############################################
+# Order-only phony target for QtDemo
+
+build cmake_object_order_depends_target_QtDemo: phony || QtDemo_autogen
+
+build CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.o: CXX_COMPILER__QtDemo_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_QtDemo
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/QtDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles/QtDemo.dir/QtDemo_autogen
+  TARGET_COMPILE_PDB = CMakeFiles/QtDemo.dir/
+  TARGET_PDB = QtDemo.pdb
+
+build CMakeFiles/QtDemo.dir/main.cpp.o: CXX_COMPILER__QtDemo_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/main.cpp || cmake_object_order_depends_target_QtDemo
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/QtDemo.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/QtDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles/QtDemo.dir
+  TARGET_COMPILE_PDB = CMakeFiles/QtDemo.dir/
+  TARGET_PDB = QtDemo.pdb
+
+build CMakeFiles/QtDemo.dir/mywidget.cpp.o: CXX_COMPILER__QtDemo_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/mywidget.cpp || cmake_object_order_depends_target_QtDemo
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/QtDemo.dir/mywidget.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = CMakeFiles/QtDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles/QtDemo.dir
+  TARGET_COMPILE_PDB = CMakeFiles/QtDemo.dir/
+  TARGET_PDB = QtDemo.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target QtDemo
+
+
+#############################################
+# Link the executable QtDemo
+
+build QtDemo: CXX_EXECUTABLE_LINKER__QtDemo_Debug CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.o CMakeFiles/QtDemo.dir/main.cpp.o CMakeFiles/QtDemo.dir/mywidget.cpp.o | /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore || QtDemo_autogen
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore
+  LINK_PATH = -F/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib
+  OBJECT_DIR = CMakeFiles/QtDemo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/QtDemo.dir/
+  TARGET_FILE = QtDemo
+  TARGET_PDB = QtDemo.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yzy/Desktop/cpp/CloudDisk/TcpServer -B/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for QtDemo_autogen
+
+build QtDemo_autogen: phony CMakeFiles/QtDemo_autogen QtDemo_autogen/mocs_compilation.cpp
+
+
+#############################################
+# Custom command for CMakeFiles/QtDemo_autogen
+
+build CMakeFiles/QtDemo_autogen QtDemo_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}CMakeFiles/QtDemo_autogen ${cmake_ninja_workdir}QtDemo_autogen/mocs_compilation.cpp: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_autogen /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/QtDemo_autogen.dir/AutogenInfo.json Debug
+  DESC = Automatic MOC and UIC for target QtDemo
+  restat = 1
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug
+
+build all: phony QtDemo
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/CMakeLists.txt /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/CMakeLists.txt /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

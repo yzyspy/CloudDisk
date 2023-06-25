@@ -1,0 +1,4 @@
+/Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles/QtDemo.dir
+/Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles/edit_cache.dir
+/Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles/rebuild_cache.dir
+/Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles/QtDemo_autogen.dir
