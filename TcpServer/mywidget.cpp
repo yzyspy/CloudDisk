@@ -6,7 +6,7 @@
 Mywidget::Mywidget(QWidget* parent){
 
 
-    setupUi();
+
 
     // 创建TCP套接字
     m_socket = new QTcpSocket(this);
@@ -17,8 +17,7 @@ Mywidget::Mywidget(QWidget* parent){
     // 连接到远程主机
     m_socket->connectToHost("127.0.0.1", 1234);
 
-    m_socket->write("abc");
-
+    setupUi();
 
 }
 
@@ -56,4 +55,5 @@ Mywidget::~Mywidget(){
 void Mywidget::onConnected() {
 // 连接成功，执行一些操作
     qDebug() << "Connected to server";
+    m_socket->write("abc");
 }

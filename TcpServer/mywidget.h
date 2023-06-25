@@ -12,8 +12,11 @@ Mywidget(QWidget* parent=0);//构造函数
 private:
     QTcpSocket *m_socket;
 
+public:
+    void setupUi();
+
 public slots:
     void onConnected();
 
-    void setupUi();
+
 };
