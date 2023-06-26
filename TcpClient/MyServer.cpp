@@ -4,14 +4,14 @@
 
 #include "MyServer.h"
 
-void MyServer::incomingConnection(qintptr handle) {
+void MyServer::incomingConnection(qintptr socketDescriptor) {
     // 创建新的QTcpSocket对象
-    QTcpSocket *socket = new QTcpSocket(this);
+    m_socket = new QTcpSocket(this);
 
     // 将新的套接字描述符与QTcpSocket对象关联
-    if (!socket->setSocketDescriptor(socketDescriptor)) {
+    if (!m_socket->setSocketDescriptor(socketDescriptor)) {
         // 关联失败，删除QTcpSocket对象
-        delete socket;
+        delete m_socket;
         return;
     }
 
@@ -19,16 +19,25 @@ void MyServer::incomingConnection(qintptr handle) {
    // m_connections.append(socket);
 
     // 连接QTcpSocket对象的readyRead()和disconnected()信号
-    connect(socket, &QTcpSocket::readyRead, this, &MyServer::onReadyRead);
-    connect(socket, &QTcpSocket::disconnected, this, &MyServer::onDisconnected);
+    connect(m_socket, &QTcpSocket::readyRead, this, &MyServer::onReadyRead);
+    connect(m_socket, &QTcpSocket::disconnected, this, &MyServer::onDisconnected);
 
     // 发送欢迎消息
-    socket->write("Welcome to my server!");
+    m_socket->write("Welcome to my server!");
 }
 
 MyServer &MyServer::getInstance() {
    static MyServer server ;
     return server;
+}
+
+void MyServer::onDisconnected() {
+
+}
+
+void MyServer::onReadyRead() {
+    QByteArray data = m_socket->readAll();
+   qDebug() << "server onReadyRead..." << data;
 }
 
 

@@ -70,9 +70,9 @@ build CMakeFiles/QtDemo.dir/mywidget.cpp.o: CXX_COMPILER__QtDemo_Debug /Users/yz
   OBJECT_DIR = CMakeFiles/QtDemo.dir
   OBJECT_FILE_DIR = CMakeFiles/QtDemo.dir
 
-build CMakeFiles/QtDemo.dir/mytcpserver.cpp.o: CXX_COMPILER__QtDemo_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mytcpserver.cpp || cmake_object_order_depends_target_QtDemo
+build CMakeFiles/QtDemo.dir/MyServer.cpp.o: CXX_COMPILER__QtDemo_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyServer.cpp || cmake_object_order_depends_target_QtDemo
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/QtDemo.dir/mytcpserver.cpp.o.d
+  DEP_FILE = CMakeFiles/QtDemo.dir/MyServer.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
   INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/cmake-build-debug -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/cmake-build-debug/QtDemo_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
   OBJECT_DIR = CMakeFiles/QtDemo.dir
@@ -86,7 +86,7 @@ build CMakeFiles/QtDemo.dir/mytcpserver.cpp.o: CXX_COMPILER__QtDemo_Debug /Users
 #############################################
 # Link the executable QtDemo
 
-build QtDemo: CXX_EXECUTABLE_LINKER__QtDemo_Debug CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.o CMakeFiles/QtDemo.dir/main.cpp.o CMakeFiles/QtDemo.dir/mywidget.cpp.o CMakeFiles/QtDemo.dir/mytcpserver.cpp.o | /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore || QtDemo_autogen
+build QtDemo: CXX_EXECUTABLE_LINKER__QtDemo_Debug CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.o CMakeFiles/QtDemo.dir/main.cpp.o CMakeFiles/QtDemo.dir/mywidget.cpp.o CMakeFiles/QtDemo.dir/MyServer.cpp.o | /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore || QtDemo_autogen
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore
   LINK_PATH = -F/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib

@@ -15,8 +15,8 @@ private:
 public:
     void setupUi();
 
-public slots:
+public:
     void onConnected();
-
+    void onReadyRead();
 
 };

@@ -10,12 +10,17 @@
 #include <QTcpSocket>
 
 class MyServer : public QTcpServer{
+    Q_OBJECT
 public:
   void incomingConnection(qintptr handle) override;
   static MyServer& getInstance();
 protected :
     QString m_strIp;
     quint16 m_usPort;
+    QTcpSocket* m_socket;
+public:
+    void onDisconnected();
+    void onReadyRead();
 };
 
 

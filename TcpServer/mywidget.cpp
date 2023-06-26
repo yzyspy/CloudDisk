@@ -10,6 +10,7 @@ Mywidget::Mywidget(QWidget* parent){
 
     // 连接connected()信号到槽函数
     connect(m_socket, &QTcpSocket::connected, this, &Mywidget::onConnected);
+    connect(m_socket, &QTcpSocket::readyRead, this, &Mywidget::onReadyRead);
 
     // 连接到远程主机
     m_socket->connectToHost("172.16.129.248", 9999);
@@ -52,5 +53,11 @@ Mywidget::~Mywidget(){
 void Mywidget::onConnected() {
 // 连接成功，执行一些操作
     qDebug() << "Connected to server";
-    m_socket->write("abc");
+    m_socket->write("i am client");
+}
+
+
+void Mywidget::onReadyRead() {
+    QByteArray data = m_socket->readAll();
+    qDebug() << "client onReadyRead..." << data;
 }

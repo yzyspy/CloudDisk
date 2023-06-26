@@ -78,9 +78,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mytcpserver.h",
+			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyServer.h",
 			"MU",
-			"EWIEGA46WW/moc_mytcpserver.cpp",
+			"EWIEGA46WW/moc_MyServer.cpp",
 			null
 		],
 		[
@@ -144,12 +144,8 @@
 	"SETTINGS_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/cmake-build-debug/CMakeFiles/QtDemo_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyServer.cpp", "MU", null ],
 		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/main.cpp", "MU", null ],
-		[
-			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mytcpserver.cpp",
-			"MU",
-			null
-		],
 		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mywidget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
