@@ -5,9 +5,6 @@
 
 Mywidget::Mywidget(QWidget* parent){
 
-
-
-
     // 创建TCP套接字
     m_socket = new QTcpSocket(this);
 
@@ -15,7 +12,7 @@ Mywidget::Mywidget(QWidget* parent){
     connect(m_socket, &QTcpSocket::connected, this, &Mywidget::onConnected);
 
     // 连接到远程主机
-    m_socket->connectToHost("127.0.0.1", 1234);
+    m_socket->connectToHost("172.16.129.248", 9999);
 
     setupUi();
 

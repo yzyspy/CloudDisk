@@ -1,0 +1,4 @@
+/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/CMakeFiles/QtDemo.dir
+/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/CMakeFiles/edit_cache.dir
+/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/CMakeFiles/rebuild_cache.dir
+/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/CMakeFiles/QtDemo_autogen.dir

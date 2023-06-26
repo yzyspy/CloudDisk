@@ -9,9 +9,5 @@ public :
 Mywidget(QWidget* parent=0);//构造函数
 ~Mywidget();//析构函数
 
-private :
-    QString m_strIp;
-    quint16 m_usPort;
-    QTcpSocket m_tcpSocket;
-    static QTcpSocket& getInstance();
+void init();
 };

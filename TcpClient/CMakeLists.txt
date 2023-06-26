@@ -20,6 +20,6 @@ find_package(Qt5 COMPONENTS Network REQUIRED)
 
 add_executable(QtDemo
     main.cpp mywidget.h mywidget.cpp
-  )
+        MyServer.cpp MyServer.h)
 
 target_link_libraries(QtDemo PRIVATE Qt5::Widgets  Qt5::Core Qt5::Network)

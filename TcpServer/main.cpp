@@ -15,12 +15,13 @@ QApplication a(argc,argv);
 
 
     // 创建主窗口
-    Mywidget *mainWindow = new Mywidget;
+   // Mywidget *mainWindow = new Mywidget;
 
     // 显示主窗口
-    mainWindow->show();
+   // mainWindow->show();
 
-
+    Mywidget mywidget;
+    mywidget.show();
 
   a.exec();
   return 0;
