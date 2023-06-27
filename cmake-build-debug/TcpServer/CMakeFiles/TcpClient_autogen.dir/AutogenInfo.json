@@ -1,0 +1,129 @@
+{
+	"BUILD_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer",
+	"CMAKE_EXECUTABLE" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/CMakeLists.txt",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/mywidget.h",
+			"MU",
+			"EWIEGA46WW/moc_mywidget.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer",
+		"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/mkspecs/macx-clang",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework",
+		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include",
+		"/Library/Developer/CommandLineTools/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/CMakeFiles/TcpClient_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/yzy/Qt5.12.0/5.12.0/clang_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/yzy/Qt5.12.0/5.12.0/clang_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/CMakeFiles/TcpClient_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/main.cpp", "MU", null ],
+		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/mywidget.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

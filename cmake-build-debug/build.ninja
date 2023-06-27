@@ -1,0 +1,333 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: TcpServer
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yzy/Desktop/cpp/CloudDisk -B/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yzy/Desktop/cpp/CloudDisk/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TcpServer
+
+
+#############################################
+# Order-only phony target for TcpServer
+
+build cmake_object_order_depends_target_TcpServer: phony || TcpClient/TcpServer_autogen
+
+build TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o: CXX_COMPILER__TcpServer_Debug /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_TcpServer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
+  OBJECT_FILE_DIR = TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen
+
+build TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o: CXX_COMPILER__TcpServer_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/main.cpp || cmake_object_order_depends_target_TcpServer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
+  OBJECT_FILE_DIR = TcpClient/CMakeFiles/TcpServer.dir
+
+build TcpClient/CMakeFiles/TcpServer.dir/mywidget.cpp.o: CXX_COMPILER__TcpServer_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mywidget.cpp || cmake_object_order_depends_target_TcpServer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpClient/CMakeFiles/TcpServer.dir/mywidget.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
+  OBJECT_FILE_DIR = TcpClient/CMakeFiles/TcpServer.dir
+
+build TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o: CXX_COMPILER__TcpServer_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyServer.cpp || cmake_object_order_depends_target_TcpServer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
+  OBJECT_FILE_DIR = TcpClient/CMakeFiles/TcpServer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TcpServer
+
+
+#############################################
+# Link the executable TcpClient/TcpServer
+
+build TcpClient/TcpServer: CXX_EXECUTABLE_LINKER__TcpServer_Debug TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o TcpClient/CMakeFiles/TcpServer.dir/mywidget.cpp.o TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o | /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore || TcpClient/TcpServer_autogen
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore
+  LINK_PATH = -F/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib
+  OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = TcpClient/TcpServer
+  TARGET_PDB = TcpServer.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build TcpClient/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build TcpClient/edit_cache: phony TcpClient/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build TcpClient/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yzy/Desktop/cpp/CloudDisk -B/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build TcpClient/rebuild_cache: phony TcpClient/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for TcpServer_autogen
+
+build TcpClient/TcpServer_autogen: phony TcpClient/CMakeFiles/TcpServer_autogen TcpClient/TcpServer_autogen/mocs_compilation.cpp
+
+
+#############################################
+# Custom command for TcpClient/CMakeFiles/TcpServer_autogen
+
+build TcpClient/CMakeFiles/TcpServer_autogen TcpClient/TcpServer_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}TcpClient/CMakeFiles/TcpServer_autogen ${cmake_ninja_workdir}TcpClient/TcpServer_autogen/mocs_compilation.cpp: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_autogen /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/CMakeFiles/TcpServer_autogen.dir/AutogenInfo.json Debug
+  DESC = Automatic MOC and UIC for target TcpServer
+  restat = 1
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/yzy/Desktop/cpp/CloudDisk/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TcpClient
+
+
+#############################################
+# Order-only phony target for TcpClient
+
+build cmake_object_order_depends_target_TcpClient: phony || TcpServer/TcpClient_autogen
+
+build TcpServer/CMakeFiles/TcpClient.dir/TcpClient_autogen/mocs_compilation.cpp.o: CXX_COMPILER__TcpClient_Debug /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_TcpClient
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpServer/CMakeFiles/TcpClient.dir/TcpClient_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpServer/CMakeFiles/TcpClient.dir
+  OBJECT_FILE_DIR = TcpServer/CMakeFiles/TcpClient.dir/TcpClient_autogen
+
+build TcpServer/CMakeFiles/TcpClient.dir/main.cpp.o: CXX_COMPILER__TcpClient_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/main.cpp || cmake_object_order_depends_target_TcpClient
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpServer/CMakeFiles/TcpClient.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpServer/CMakeFiles/TcpClient.dir
+  OBJECT_FILE_DIR = TcpServer/CMakeFiles/TcpClient.dir
+
+build TcpServer/CMakeFiles/TcpClient.dir/mywidget.cpp.o: CXX_COMPILER__TcpClient_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/mywidget.cpp || cmake_object_order_depends_target_TcpClient
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpServer/CMakeFiles/TcpClient.dir/mywidget.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/TcpServer -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpServer/CMakeFiles/TcpClient.dir
+  OBJECT_FILE_DIR = TcpServer/CMakeFiles/TcpClient.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TcpClient
+
+
+#############################################
+# Link the executable TcpServer/TcpClient
+
+build TcpServer/TcpClient: CXX_EXECUTABLE_LINKER__TcpClient_Debug TcpServer/CMakeFiles/TcpClient.dir/TcpClient_autogen/mocs_compilation.cpp.o TcpServer/CMakeFiles/TcpClient.dir/main.cpp.o TcpServer/CMakeFiles/TcpClient.dir/mywidget.cpp.o | /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore || TcpServer/TcpClient_autogen
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore
+  LINK_PATH = -F/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib
+  OBJECT_DIR = TcpServer/CMakeFiles/TcpClient.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = TcpServer/TcpClient
+  TARGET_PDB = TcpClient.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build TcpServer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build TcpServer/edit_cache: phony TcpServer/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build TcpServer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yzy/Desktop/cpp/CloudDisk -B/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build TcpServer/rebuild_cache: phony TcpServer/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for TcpClient_autogen
+
+build TcpServer/TcpClient_autogen: phony TcpServer/CMakeFiles/TcpClient_autogen TcpServer/TcpClient_autogen/mocs_compilation.cpp
+
+
+#############################################
+# Custom command for TcpServer/CMakeFiles/TcpClient_autogen
+
+build TcpServer/CMakeFiles/TcpClient_autogen TcpServer/TcpClient_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}TcpServer/CMakeFiles/TcpClient_autogen ${cmake_ninja_workdir}TcpServer/TcpClient_autogen/mocs_compilation.cpp: CUSTOM_COMMAND
+  COMMAND = cd /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_autogen /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/CMakeFiles/TcpClient_autogen.dir/AutogenInfo.json Debug
+  DESC = Automatic MOC and UIC for target TcpClient
+  restat = 1
+
+# =============================================================================
+# Target aliases.
+
+build TcpClient: phony TcpServer/TcpClient
+
+build TcpClient_autogen: phony TcpServer/TcpClient_autogen
+
+build TcpServer: phony TcpClient/TcpServer
+
+build TcpServer_autogen: phony TcpClient/TcpServer_autogen
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug
+
+build all: phony TcpClient/all TcpServer/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient
+
+build TcpClient/all: phony TcpClient/TcpServer
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer
+
+build TcpServer/all: phony TcpServer/TcpClient
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/yzy/Desktop/cpp/CloudDisk/CMakeLists.txt /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/CMakeLists.txt /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/CMakeLists.txt /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/yzy/Desktop/cpp/CloudDisk/CMakeLists.txt /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/CMakeLists.txt /Users/yzy/Desktop/cpp/CloudDisk/TcpServer/CMakeLists.txt /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
