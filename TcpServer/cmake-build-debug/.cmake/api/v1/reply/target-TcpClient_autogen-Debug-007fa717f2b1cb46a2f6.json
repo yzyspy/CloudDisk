@@ -14,9 +14,9 @@
 			}
 		]
 	},
-	"id" : "QtDemo_autogen::@6890427a1f51a3e7e1df",
+	"id" : "TcpClient_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "QtDemo_autogen",
+	"name" : "TcpClient_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -44,13 +44,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/QtDemo_autogen",
+			"path" : "cmake-build-debug/CMakeFiles/TcpClient_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/QtDemo_autogen.rule",
+			"path" : "cmake-build-debug/CMakeFiles/TcpClient_autogen.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

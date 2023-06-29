@@ -1,12 +1,32 @@
 {
-	"BUILD_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient",
+	"BUILD_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/TcpClient_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer",
 	"CMAKE_EXECUTABLE" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/CMakeLists.txt",
+		"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/CMakeLists.txt",
+		"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake",
+		"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake",
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -52,39 +72,21 @@
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk",
+	"CMAKE_SOURCE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyServer.h",
-			"MU",
-			"EWIEGA46WW/moc_MyServer.cpp",
-			null
-		],
-		[
-			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyTcpSocket.h",
-			"MU",
-			"EWIEGA46WW/moc_MyTcpSocket.cpp",
-			null
-		],
-		[
-			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mywidget.h",
+			"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/mywidget.h",
 			"MU",
 			"EWIEGA46WW/moc_mywidget.cpp",
-			null
-		],
-		[
-			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/pdu.h",
-			"MU",
-			"EWIEGA46WW/moc_pdu.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/TcpClient_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/TcpClient_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -95,8 +97,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient",
-		"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient",
+		"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug",
+		"/Users/yzy/Desktop/cpp/CloudDisk/TcpServer",
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework",
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers",
 		"/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework",
@@ -123,28 +125,21 @@
 		"-c",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/TcpClient_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/CMakeFiles/TcpServer_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/TcpClient_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/Users/yzy/Qt5.12.0/5.12.0/clang_64/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/Users/yzy/Qt5.12.0/5.12.0/clang_64/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/CMakeFiles/TcpServer_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/CMakeFiles/TcpClient_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyServer.cpp", "MU", null ],
-		[
-			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyTcpSocket.cpp",
-			"MU",
-			null
-		],
-		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/main.cpp", "MU", null ],
-		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mywidget.cpp", "MU", null ],
-		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/pdu.cpp", "MU", null ]
+		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/main.cpp", "MU", null ],
+		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/mywidget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

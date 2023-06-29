@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "PlaneClient"
+			"value" : "TcpClient"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1100,6 +1100,42 @@
 			],
 			"type" : "PATH",
 			"value" : "/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5"
+		},
+		{
+			"name" : "TcpClient_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug"
+		},
+		{
+			"name" : "TcpClient_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "TcpClient_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer"
 		}
 	],
 	"kind" : "cache",

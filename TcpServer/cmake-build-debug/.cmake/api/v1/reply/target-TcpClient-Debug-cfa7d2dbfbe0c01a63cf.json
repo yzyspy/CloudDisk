@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "QtDemo"
+			"path" : "TcpClient"
 		}
 	],
 	"backtrace" : 1,
@@ -118,7 +118,7 @@
 				},
 				{
 					"backtrace" : 0,
-					"path" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/QtDemo_autogen/include"
+					"path" : "/Users/yzy/Desktop/cpp/CloudDisk/TcpServer/cmake-build-debug/TcpClient_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -192,10 +192,10 @@
 	[
 		{
 			"backtrace" : 0,
-			"id" : "QtDemo_autogen::@6890427a1f51a3e7e1df"
+			"id" : "TcpClient_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "QtDemo::@6890427a1f51a3e7e1df",
+	"id" : "TcpClient::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -239,8 +239,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "QtDemo",
-	"nameOnDisk" : "QtDemo",
+	"name" : "TcpClient",
+	"nameOnDisk" : "TcpClient",
 	"paths" : 
 	{
 		"build" : ".",
@@ -271,7 +271,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/QtDemo_autogen/mocs_compilation.cpp",
+			"path" : "cmake-build-debug/TcpClient_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

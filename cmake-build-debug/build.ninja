@@ -106,6 +106,22 @@ build TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o: CXX_COMPILER__TcpServer
   OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
   OBJECT_FILE_DIR = TcpClient/CMakeFiles/TcpServer.dir
 
+build TcpClient/CMakeFiles/TcpServer.dir/MyTcpSocket.cpp.o: CXX_COMPILER__TcpServer_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/MyTcpSocket.cpp || cmake_object_order_depends_target_TcpServer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpClient/CMakeFiles/TcpServer.dir/MyTcpSocket.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
+  OBJECT_FILE_DIR = TcpClient/CMakeFiles/TcpServer.dir
+
+build TcpClient/CMakeFiles/TcpServer.dir/pdu.cpp.o: CXX_COMPILER__TcpServer_Debug /Users/yzy/Desktop/cpp/CloudDisk/TcpClient/pdu.cpp || cmake_object_order_depends_target_TcpServer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = TcpClient/CMakeFiles/TcpServer.dir/pdu.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fcolor-diagnostics -fPIC -std=gnu++11
+  INCLUDES = -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/TcpClient -I/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include -iframework /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/Headers -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/./mkspecs/macx-clang -isystem /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/Headers
+  OBJECT_DIR = TcpClient/CMakeFiles/TcpServer.dir
+  OBJECT_FILE_DIR = TcpClient/CMakeFiles/TcpServer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TcpServer
@@ -114,7 +130,7 @@ build TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o: CXX_COMPILER__TcpServer
 #############################################
 # Link the executable TcpClient/TcpServer
 
-build TcpClient/TcpServer: CXX_EXECUTABLE_LINKER__TcpServer_Debug TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o TcpClient/CMakeFiles/TcpServer.dir/mywidget.cpp.o TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o | /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore || TcpClient/TcpServer_autogen
+build TcpClient/TcpServer: CXX_EXECUTABLE_LINKER__TcpServer_Debug TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o TcpClient/CMakeFiles/TcpServer.dir/mywidget.cpp.o TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o TcpClient/CMakeFiles/TcpServer.dir/MyTcpSocket.cpp.o TcpClient/CMakeFiles/TcpServer.dir/pdu.cpp.o | /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore || TcpClient/TcpServer_autogen
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtWidgets.framework/QtWidgets  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtNetwork.framework/QtNetwork  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtGui.framework/QtGui  /Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/QtCore.framework/QtCore
   LINK_PATH = -F/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib
