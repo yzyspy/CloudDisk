@@ -1,18 +1,18 @@
 # ninja log v5
 412	1603	1687836702142531296	TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o	cd79e9dfcd32a5dc
-413	1538	1687836702083434199	TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o	39874ef71b046e29
-412	1709	1687836702252619530	TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o	f4de39860955d3d
 0	271	0	/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/CMakeFiles/TcpClient_autogen	d0c8689e23a56e5e
-271	2863	1687836711051947083	TcpServer/CMakeFiles/TcpClient.dir/mywidget.cpp.o	dcb6b092379ece09
+412	1709	1687836702252619530	TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o	f4de39860955d3d
+413	1538	1687836702083434199	TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o	39874ef71b046e29
 1	411	0	/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/CMakeFiles/TcpServer_autogen	2d58262a8aa2cdbf
+271	2863	1687836711051947083	TcpServer/CMakeFiles/TcpClient.dir/mywidget.cpp.o	dcb6b092379ece09
 1	411	0	TcpClient/CMakeFiles/TcpServer_autogen	2d58262a8aa2cdbf
 0	271	0	TcpServer/CMakeFiles/TcpClient_autogen	d0c8689e23a56e5e
 1	411	0	TcpClient/TcpServer_autogen/mocs_compilation.cpp	2d58262a8aa2cdbf
 0	271	0	/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpServer/TcpClient_autogen/mocs_compilation.cpp	d0c8689e23a56e5e
 2864	2909	1687836711115404755	TcpServer/TcpClient	87ee1f48656fab87
 271	2005	1687836710195561532	TcpServer/CMakeFiles/TcpClient.dir/TcpClient_autogen/mocs_compilation.cpp.o	cd31b74e180f36a1
-1	411	0	/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/mocs_compilation.cpp	2d58262a8aa2cdbf
-2383	2438	1687836702989787352	TcpClient/TcpServer	f53db564d6ca64d3
-271	2015	1687836710204697699	TcpServer/CMakeFiles/TcpClient.dir/main.cpp.o	8f05b291f3022bd9
-412	2382	1687836702919993052	TcpClient/CMakeFiles/TcpServer.dir/mywidget.cpp.o	822595480059a6ca
 0	271	0	TcpServer/TcpClient_autogen/mocs_compilation.cpp	d0c8689e23a56e5e
+412	2382	1687836702919993052	TcpClient/CMakeFiles/TcpServer.dir/mywidget.cpp.o	822595480059a6ca
+271	2015	1687836710204697699	TcpServer/CMakeFiles/TcpClient.dir/main.cpp.o	8f05b291f3022bd9
+2383	2438	1687836702989787352	TcpClient/TcpServer	f53db564d6ca64d3
+1	411	0	/Users/yzy/Desktop/cpp/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/mocs_compilation.cpp	2d58262a8aa2cdbf

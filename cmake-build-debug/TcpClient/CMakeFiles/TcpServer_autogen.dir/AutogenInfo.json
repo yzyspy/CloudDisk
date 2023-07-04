@@ -76,6 +76,12 @@
 			null
 		],
 		[
+			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/open_db.h",
+			"MU",
+			"EWIEGA46WW/moc_open_db.cpp",
+			null
+		],
+		[
 			"/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/pdu.h",
 			"MU",
 			"EWIEGA46WW/moc_pdu.cpp",
@@ -144,6 +150,7 @@
 		],
 		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/main.cpp", "MU", null ],
 		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/mywidget.cpp", "MU", null ],
+		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/open_db.cpp", "MU", null ],
 		[ "/Users/yzy/Desktop/cpp/CloudDisk/TcpClient/pdu.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

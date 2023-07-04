@@ -9,7 +9,7 @@
 #include <QTcpSocket>
 
 class MyTcpSocket : public QTcpSocket{
-
+Q_OBJECT
 };
 
 
