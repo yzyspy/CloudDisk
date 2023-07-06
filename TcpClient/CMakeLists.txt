@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(TcpServer LANGUAGES CXX)
 
-set(CMAKE_PREFIX_PATH "/Users/yzy/Qt5.12.0/5.12.0/clang_64/lib/cmake/Qt5")
+set(CMAKE_PREFIX_PATH "/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake")
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 

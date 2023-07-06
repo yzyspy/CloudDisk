@@ -15,5 +15,8 @@ Mywidget::~Mywidget(){
 }
 
 void Mywidget::init() {
+    // 创建TCP服务器
+    qDebug() << "listen 9999 qDebug ";
+     qInfo() << "listen 9999 qInfo";
     MyServer::getInstance().listen(QHostAddress::Any, 9999);
 }

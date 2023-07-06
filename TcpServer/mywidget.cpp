@@ -1,5 +1,6 @@
 
 #include "mywidget.h"
+#include "pdu.h"
 #include <QtNetwork>
 #include <QtWidgets>
 
@@ -13,7 +14,7 @@ Mywidget::Mywidget(QWidget* parent){
     connect(m_socket, &QTcpSocket::readyRead, this, &Mywidget::onReadyRead);
 
     // 连接到远程主机
-    m_socket->connectToHost("172.16.129.248", 9999);
+    m_socket->connectToHost("192.168.0.106", 9999);
 
     setupUi();
 
@@ -24,9 +25,9 @@ void Mywidget::setupUi() {
 
     // 创建用户名和密码输入框
     QLabel *userLabel = new QLabel("用户名:");
-    QLineEdit *userEdit = new QLineEdit;
+    this->userEdit = new QLineEdit;
     QLabel *passwordLabel = new QLabel("密码:");
-    QLineEdit *passwordEdit = new QLineEdit;
+    this->passwordEdit = new QLineEdit;
     passwordEdit->setEchoMode(QLineEdit::Password);
 
     // 创建登录、注销和注册按钮
@@ -44,6 +45,8 @@ void Mywidget::setupUi() {
     layout->addWidget(logoutButton, 2, 1);
     layout->addWidget(registerButton, 3, 0, 1, 2);
     setLayout(layout);
+
+    connect(registerButton, &QPushButton::clicked, this, &Mywidget::onRegisterButtonClicked);
 }
 
 Mywidget::~Mywidget(){
@@ -61,3 +64,12 @@ void Mywidget::onReadyRead() {
     QByteArray data = m_socket->readAll();
     qDebug() << "client onReadyRead..." << data;
 }
+
+void Mywidget::onRegisterButtonClicked() {
+   qInfo() << "onRegisterButtonClicked" ;
+   QString psw = this->passwordEdit->text();
+   QString name = this->userEdit->text();
+   PDU *pdu = mkPDU(0);
+   m_socket->write()
+}
+

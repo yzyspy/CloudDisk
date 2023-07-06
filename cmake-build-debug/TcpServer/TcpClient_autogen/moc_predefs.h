@@ -1,4 +1,3 @@
-#define OBJC_NEW_PROPERTIES 1
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
 #define QT_NETWORK_LIB 1
@@ -47,7 +46,8 @@
 #define __DECIMAL_DIG__ __LDBL_DECIMAL_DIG__
 #define __DEPRECATED 1
 #define __DYNAMIC__ 1
-#define __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__ 101400
+#define __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__ 120000
+#define __ENVIRONMENT_OS_VERSION_MIN_REQUIRED__ 120000
 #define __EXCEPTIONS 1
 #define __FINITE_MATH_ONLY__ 0
 #define __FLT16_DECIMAL_DIG__ 5
@@ -59,10 +59,10 @@
 #define __FLT16_HAS_QUIET_NAN__ 1
 #define __FLT16_MANT_DIG__ 11
 #define __FLT16_MAX_10_EXP__ 4
-#define __FLT16_MAX_EXP__ 15
+#define __FLT16_MAX_EXP__ 16
 #define __FLT16_MAX__ 6.5504e+4F16
-#define __FLT16_MIN_10_EXP__ (-13)
-#define __FLT16_MIN_EXP__ (-14)
+#define __FLT16_MIN_10_EXP__ (-4)
+#define __FLT16_MIN_EXP__ (-13)
 #define __FLT16_MIN__ 6.103515625e-5F16
 #define __FLT_DECIMAL_DIG__ 9
 #define __FLT_DENORM_MIN__ 1.40129846e-45F
@@ -81,6 +81,7 @@
 #define __FLT_MIN__ 1.17549435e-38F
 #define __FLT_RADIX__ 2
 #define __FXSR__ 1
+#define __GCC_ASM_FLAG_OUTPUTS__ 1
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 2
 #define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
 #define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
@@ -92,6 +93,7 @@
 #define __GCC_ATOMIC_SHORT_LOCK_FREE 2
 #define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
 #define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __GCC_HAVE_DWARF2_CFI_ASM 1
 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_16 1
 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
@@ -146,10 +148,10 @@
 #define __INT_FAST32_FMTi__ "i"
 #define __INT_FAST32_MAX__ 2147483647
 #define __INT_FAST32_TYPE__ int
-#define __INT_FAST64_FMTd__ "ld"
-#define __INT_FAST64_FMTi__ "li"
-#define __INT_FAST64_MAX__ 9223372036854775807L
-#define __INT_FAST64_TYPE__ long int
+#define __INT_FAST64_FMTd__ "lld"
+#define __INT_FAST64_FMTi__ "lli"
+#define __INT_FAST64_MAX__ 9223372036854775807LL
+#define __INT_FAST64_TYPE__ long long int
 #define __INT_FAST8_FMTd__ "hhd"
 #define __INT_FAST8_FMTi__ "hhi"
 #define __INT_FAST8_MAX__ 127
@@ -162,15 +164,16 @@
 #define __INT_LEAST32_FMTi__ "i"
 #define __INT_LEAST32_MAX__ 2147483647
 #define __INT_LEAST32_TYPE__ int
-#define __INT_LEAST64_FMTd__ "ld"
-#define __INT_LEAST64_FMTi__ "li"
-#define __INT_LEAST64_MAX__ 9223372036854775807L
-#define __INT_LEAST64_TYPE__ long int
+#define __INT_LEAST64_FMTd__ "lld"
+#define __INT_LEAST64_FMTi__ "lli"
+#define __INT_LEAST64_MAX__ 9223372036854775807LL
+#define __INT_LEAST64_TYPE__ long long int
 #define __INT_LEAST8_FMTd__ "hhd"
 #define __INT_LEAST8_FMTi__ "hhi"
 #define __INT_LEAST8_MAX__ 127
 #define __INT_LEAST8_TYPE__ signed char
 #define __INT_MAX__ 2147483647
+#define __LAHF_SAHF__ 1
 #define __LDBL_DECIMAL_DIG__ 21
 #define __LDBL_DENORM_MIN__ 3.64519953188247460253e-4951L
 #define __LDBL_DIG__ 18
@@ -212,6 +215,8 @@
 #define __PTRDIFF_WIDTH__ 64
 #define __REGISTER_PREFIX__ 
 #define __SCHAR_MAX__ 127
+#define __SEG_FS 1
+#define __SEG_GS 1
 #define __SHRT_MAX__ 32767
 #define __SIG_ATOMIC_MAX__ 2147483647
 #define __SIG_ATOMIC_WIDTH__ 32
@@ -244,6 +249,7 @@
 #define __SSP__ 1
 #define __SSSE3__ 1
 #define __STDCPP_DEFAULT_NEW_ALIGNMENT__ 16UL
+#define __STDCPP_THREADS__ 1
 #define __STDC_HOSTED__ 1
 #define __STDC_NO_THREADS__ 1
 #define __STDC_UTF_16__ 1
@@ -304,12 +310,12 @@
 #define __UINT_FAST32_FMTx__ "x"
 #define __UINT_FAST32_MAX__ 4294967295U
 #define __UINT_FAST32_TYPE__ unsigned int
-#define __UINT_FAST64_FMTX__ "lX"
-#define __UINT_FAST64_FMTo__ "lo"
-#define __UINT_FAST64_FMTu__ "lu"
-#define __UINT_FAST64_FMTx__ "lx"
-#define __UINT_FAST64_MAX__ 18446744073709551615UL
-#define __UINT_FAST64_TYPE__ long unsigned int
+#define __UINT_FAST64_FMTX__ "llX"
+#define __UINT_FAST64_FMTo__ "llo"
+#define __UINT_FAST64_FMTu__ "llu"
+#define __UINT_FAST64_FMTx__ "llx"
+#define __UINT_FAST64_MAX__ 18446744073709551615ULL
+#define __UINT_FAST64_TYPE__ long long unsigned int
 #define __UINT_FAST8_FMTX__ "hhX"
 #define __UINT_FAST8_FMTo__ "hho"
 #define __UINT_FAST8_FMTu__ "hhu"
@@ -328,12 +334,12 @@
 #define __UINT_LEAST32_FMTx__ "x"
 #define __UINT_LEAST32_MAX__ 4294967295U
 #define __UINT_LEAST32_TYPE__ unsigned int
-#define __UINT_LEAST64_FMTX__ "lX"
-#define __UINT_LEAST64_FMTo__ "lo"
-#define __UINT_LEAST64_FMTu__ "lu"
-#define __UINT_LEAST64_FMTx__ "lx"
-#define __UINT_LEAST64_MAX__ 18446744073709551615UL
-#define __UINT_LEAST64_TYPE__ long unsigned int
+#define __UINT_LEAST64_FMTX__ "llX"
+#define __UINT_LEAST64_FMTo__ "llo"
+#define __UINT_LEAST64_FMTu__ "llu"
+#define __UINT_LEAST64_FMTx__ "llx"
+#define __UINT_LEAST64_MAX__ 18446744073709551615ULL
+#define __UINT_LEAST64_TYPE__ long long unsigned int
 #define __UINT_LEAST8_FMTX__ "hhX"
 #define __UINT_LEAST8_FMTo__ "hho"
 #define __UINT_LEAST8_FMTu__ "hhu"
@@ -341,7 +347,7 @@
 #define __UINT_LEAST8_MAX__ 255
 #define __UINT_LEAST8_TYPE__ unsigned char
 #define __USER_LABEL_PREFIX__ _
-#define __VERSION__ "4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)"
+#define __VERSION__ "Apple LLVM 14.0.0 (clang-1400.0.29.102)"
 #define __WCHAR_MAX__ 2147483647
 #define __WCHAR_TYPE__ int
 #define __WCHAR_WIDTH__ 32
@@ -350,17 +356,21 @@
 #define __WINT_WIDTH__ 32
 #define __amd64 1
 #define __amd64__ 1
-#define __apple_build_version__ 10010046
+#define __apple_build_version__ 14000029
 #define __block __attribute__((__blocks__(byref)))
 #define __clang__ 1
-#define __clang_major__ 10
+#define __clang_literal_encoding__ "UTF-8"
+#define __clang_major__ 14
 #define __clang_minor__ 0
-#define __clang_patchlevel__ 1
-#define __clang_version__ "10.0.1 (clang-1001.0.46.4)"
+#define __clang_patchlevel__ 0
+#define __clang_version__ "14.0.0 (clang-1400.0.29.102)"
+#define __clang_wide_literal_encoding__ "UTF-32"
+#define __code_model_small__ 1
 #define __core2 1
 #define __core2__ 1
 #define __cplusplus 199711L
 #define __cpp_exceptions 199711L
+#define __cpp_impl_destroying_delete 201806L
 #define __cpp_rtti 199711L
 #define __cpp_threadsafe_static_init 200806L
 #define __llvm__ 1
@@ -369,6 +379,8 @@
 #define __nullable _Nullable
 #define __pic__ 2
 #define __private_extern__ extern
+#define __seg_fs __attribute__((address_space(257)))
+#define __seg_gs __attribute__((address_space(256)))
 #define __strong 
 #define __tune_core2__ 1
 #define __unsafe_unretained 

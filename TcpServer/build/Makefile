@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo
+CMAKE_SOURCE_DIR = /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build
+CMAKE_BINARY_DIR = /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,61 +117,61 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named QtDemo
+# Target rules for targets named TcpClient
 
 # Build rule for target.
-QtDemo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtDemo
-.PHONY : QtDemo
+TcpClient: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TcpClient
+.PHONY : TcpClient
 
 # fast build rule for target.
-QtDemo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/build
-.PHONY : QtDemo/fast
+TcpClient/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/build
+.PHONY : TcpClient/fast
 
 #=============================================================================
-# Target rules for targets named QtDemo_autogen
+# Target rules for targets named TcpClient_autogen
 
 # Build rule for target.
-QtDemo_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtDemo_autogen
-.PHONY : QtDemo_autogen
+TcpClient_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TcpClient_autogen
+.PHONY : TcpClient_autogen
 
 # fast build rule for target.
-QtDemo_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo_autogen.dir/build.make CMakeFiles/QtDemo_autogen.dir/build
-.PHONY : QtDemo_autogen/fast
+TcpClient_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient_autogen.dir/build.make CMakeFiles/TcpClient_autogen.dir/build
+.PHONY : TcpClient_autogen/fast
 
-QtDemo_autogen/mocs_compilation.o: QtDemo_autogen/mocs_compilation.cpp.o
-.PHONY : QtDemo_autogen/mocs_compilation.o
+TcpClient_autogen/mocs_compilation.o: TcpClient_autogen/mocs_compilation.cpp.o
+.PHONY : TcpClient_autogen/mocs_compilation.o
 
 # target to build an object file
-QtDemo_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.o
-.PHONY : QtDemo_autogen/mocs_compilation.cpp.o
+TcpClient_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/TcpClient_autogen/mocs_compilation.cpp.o
+.PHONY : TcpClient_autogen/mocs_compilation.cpp.o
 
-QtDemo_autogen/mocs_compilation.i: QtDemo_autogen/mocs_compilation.cpp.i
-.PHONY : QtDemo_autogen/mocs_compilation.i
+TcpClient_autogen/mocs_compilation.i: TcpClient_autogen/mocs_compilation.cpp.i
+.PHONY : TcpClient_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-QtDemo_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.i
-.PHONY : QtDemo_autogen/mocs_compilation.cpp.i
+TcpClient_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/TcpClient_autogen/mocs_compilation.cpp.i
+.PHONY : TcpClient_autogen/mocs_compilation.cpp.i
 
-QtDemo_autogen/mocs_compilation.s: QtDemo_autogen/mocs_compilation.cpp.s
-.PHONY : QtDemo_autogen/mocs_compilation.s
+TcpClient_autogen/mocs_compilation.s: TcpClient_autogen/mocs_compilation.cpp.s
+.PHONY : TcpClient_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-QtDemo_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/QtDemo_autogen/mocs_compilation.cpp.s
-.PHONY : QtDemo_autogen/mocs_compilation.cpp.s
+TcpClient_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/TcpClient_autogen/mocs_compilation.cpp.s
+.PHONY : TcpClient_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -179,7 +179,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -187,7 +187,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mywidget.o: mywidget.cpp.o
@@ -195,7 +195,7 @@ mywidget.o: mywidget.cpp.o
 
 # target to build an object file
 mywidget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/mywidget.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/mywidget.cpp.o
 .PHONY : mywidget.cpp.o
 
 mywidget.i: mywidget.cpp.i
@@ -203,7 +203,7 @@ mywidget.i: mywidget.cpp.i
 
 # target to preprocess a source file
 mywidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/mywidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/mywidget.cpp.i
 .PHONY : mywidget.cpp.i
 
 mywidget.s: mywidget.cpp.s
@@ -211,7 +211,7 @@ mywidget.s: mywidget.cpp.s
 
 # target to generate assembly for a file
 mywidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/mywidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/mywidget.cpp.s
 .PHONY : mywidget.cpp.s
 
 # Help Target
@@ -222,11 +222,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... QtDemo_autogen"
-	@echo "... QtDemo"
-	@echo "... QtDemo_autogen/mocs_compilation.o"
-	@echo "... QtDemo_autogen/mocs_compilation.i"
-	@echo "... QtDemo_autogen/mocs_compilation.s"
+	@echo "... TcpClient_autogen"
+	@echo "... TcpClient"
+	@echo "... TcpClient_autogen/mocs_compilation.o"
+	@echo "... TcpClient_autogen/mocs_compilation.i"
+	@echo "... TcpClient_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

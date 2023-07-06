@@ -54,16 +54,16 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo
+CMAKE_SOURCE_DIR = /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build
+CMAKE_BINARY_DIR = /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/QtDemo.dir/all
+all: CMakeFiles/TcpClient.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,61 +71,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/QtDemo.dir/clean
-clean: CMakeFiles/QtDemo_autogen.dir/clean
+clean: CMakeFiles/TcpClient.dir/clean
+clean: CMakeFiles/TcpClient_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QtDemo.dir
+# Target rules for target CMakeFiles/TcpClient.dir
 
 # All Build rule for target.
-CMakeFiles/QtDemo.dir/all: CMakeFiles/QtDemo_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles --progress-num=1,2,3,4 "Built target QtDemo"
-.PHONY : CMakeFiles/QtDemo.dir/all
+CMakeFiles/TcpClient.dir/all: CMakeFiles/TcpClient_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles --progress-num=1,2,3,4 "Built target TcpClient"
+.PHONY : CMakeFiles/TcpClient.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QtDemo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QtDemo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles 0
-.PHONY : CMakeFiles/QtDemo.dir/rule
+CMakeFiles/TcpClient.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TcpClient.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles 0
+.PHONY : CMakeFiles/TcpClient.dir/rule
 
 # Convenience name for target.
-QtDemo: CMakeFiles/QtDemo.dir/rule
-.PHONY : QtDemo
+TcpClient: CMakeFiles/TcpClient.dir/rule
+.PHONY : TcpClient
 
 # clean rule for target.
-CMakeFiles/QtDemo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo.dir/build.make CMakeFiles/QtDemo.dir/clean
-.PHONY : CMakeFiles/QtDemo.dir/clean
+CMakeFiles/TcpClient.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient.dir/build.make CMakeFiles/TcpClient.dir/clean
+.PHONY : CMakeFiles/TcpClient.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QtDemo_autogen.dir
+# Target rules for target CMakeFiles/TcpClient_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/QtDemo_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo_autogen.dir/build.make CMakeFiles/QtDemo_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo_autogen.dir/build.make CMakeFiles/QtDemo_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles --progress-num=5 "Built target QtDemo_autogen"
-.PHONY : CMakeFiles/QtDemo_autogen.dir/all
+CMakeFiles/TcpClient_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient_autogen.dir/build.make CMakeFiles/TcpClient_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient_autogen.dir/build.make CMakeFiles/TcpClient_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles --progress-num=5 "Built target TcpClient_autogen"
+.PHONY : CMakeFiles/TcpClient_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QtDemo_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QtDemo_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/CMakeFiles 0
-.PHONY : CMakeFiles/QtDemo_autogen.dir/rule
+CMakeFiles/TcpClient_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TcpClient_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/CMakeFiles 0
+.PHONY : CMakeFiles/TcpClient_autogen.dir/rule
 
 # Convenience name for target.
-QtDemo_autogen: CMakeFiles/QtDemo_autogen.dir/rule
-.PHONY : QtDemo_autogen
+TcpClient_autogen: CMakeFiles/TcpClient_autogen.dir/rule
+.PHONY : TcpClient_autogen
 
 # clean rule for target.
-CMakeFiles/QtDemo_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtDemo_autogen.dir/build.make CMakeFiles/QtDemo_autogen.dir/clean
-.PHONY : CMakeFiles/QtDemo_autogen.dir/clean
+CMakeFiles/TcpClient_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TcpClient_autogen.dir/build.make CMakeFiles/TcpClient_autogen.dir/clean
+.PHONY : CMakeFiles/TcpClient_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

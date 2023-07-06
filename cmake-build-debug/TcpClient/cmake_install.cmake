@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yzy/Desktop/cpp/CloudDisk/TcpClient
+# Install script for directory: /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

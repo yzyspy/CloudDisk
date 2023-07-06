@@ -1,0 +1,4 @@
+/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/build/CMakeFiles/TcpServer.dir
+/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/build/CMakeFiles/edit_cache.dir
+/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/build/CMakeFiles/rebuild_cache.dir
+/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/build/CMakeFiles/TcpServer_autogen.dir

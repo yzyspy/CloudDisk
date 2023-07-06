@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yzy/Desktop/cpp/qt_udp_game/QtDemo
+# Install script for directory: /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/yzy/Desktop/cpp/qt_udp_game/QtDemo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpServer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
