@@ -14,13 +14,6 @@ class MyServer : public QTcpServer{
 public:
   void incomingConnection(qintptr handle) override;
   static MyServer& getInstance();
-protected :
-    QString m_strIp;
-    quint16 m_usPort;
-    QTcpSocket* m_socket;
-public:
-    void onDisconnected();
-    void onReadyRead();
 };
 
 

@@ -718,4 +718,11 @@ TcpServer/CMakeFiles/TcpClient.dir/main.cpp.o: \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QHash \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qsslkey.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qudpsocket.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qtnetworkversion.h
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qtnetworkversion.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtWidgets.framework/Headers/QLineEdit \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qpen.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextoption.h

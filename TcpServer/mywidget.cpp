@@ -56,7 +56,6 @@ Mywidget::~Mywidget(){
 void Mywidget::onConnected() {
 // 连接成功，执行一些操作
     qDebug() << "Connected to server";
-    m_socket->write("i am client");
 }
 
 
@@ -70,6 +69,6 @@ void Mywidget::onRegisterButtonClicked() {
    QString psw = this->passwordEdit->text();
    QString name = this->userEdit->text();
    PDU *pdu = mkPDU(0);
-   m_socket->write()
+   m_socket->write("i am client");
 }
 

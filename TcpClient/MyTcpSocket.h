@@ -10,6 +10,10 @@
 
 class MyTcpSocket : public QTcpSocket{
 Q_OBJECT
+public:
+    explicit MyTcpSocket(QObject *parent);
+    void recvMsg();
+    void onDisconnected();
 };
 
 
