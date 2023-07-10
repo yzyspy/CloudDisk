@@ -17,9 +17,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt5 COMPONENTS Core REQUIRED)
 find_package(Qt5 COMPONENTS Network REQUIRED)
+find_package(Qt5 COMPONENTS Sql REQUIRED)
 
 add_executable(TcpServer
     main.cpp mywidget.h mywidget.cpp
         MyServer.cpp MyServer.h MyTcpSocket.cpp MyTcpSocket.h pdu.cpp pdu.h open_db.cpp open_db.h)
 
-target_link_libraries(TcpServer PRIVATE Qt5::Widgets  Qt5::Core Qt5::Network)
+target_link_libraries(TcpServer PRIVATE Qt5::Widgets  Qt5::Core Qt5::Network Qt5::Sql)

@@ -5,7 +5,7 @@
 		<Option title="TcpClient"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\TcpServer\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\dev\;CMake Files\..\..\..\..\dev\libs\;CMake Files\..\..\..\..\dev\libs\qt5\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Network\;CMake Files\TcpClient\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\TcpServer\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\dev\;CMake Files\..\..\..\..\dev\libs\;CMake Files\..\..\..\..\dev\libs\qt5\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Sql\;CMake Files\TcpClient\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpServer"/>
@@ -235,6 +235,21 @@
 		</Unit>
 		<Unit filename="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/../../../../dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/../../../../dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/../../../../dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/../../../../dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/../../../../dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/../../../../dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dev\libs\qt5\5.14.2\clang_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
 		<Unit filename="/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\TcpClient\"/>

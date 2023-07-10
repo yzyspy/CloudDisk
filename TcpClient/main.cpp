@@ -3,6 +3,7 @@
 #include <QApplication>
 
 #include "mywidget.h"
+#include "open_db.h"
 
 using namespace std;
 

@@ -1,10 +1,8 @@
 TcpClient/CMakeFiles/TcpServer.dir/open_db.cpp.o: \
   /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/open_db.cpp \
-  /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/open_db.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobjectdefs.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qnamespace.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/QSqlQuery \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qsqlquery.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsqlglobal.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qglobal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
@@ -389,15 +387,19 @@ TcpClient/CMakeFiles/TcpServer.dir/open_db.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qnumeric.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qversiontagging.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsql-config.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qsqldatabase.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qstring.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qchar.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qbytearray.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qrefcount.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qnamespace.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qarraydata.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qstringliteral.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qstringalgorithms.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qstringview.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QVariant \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qvariant.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qlist.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qalgorithms.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qiterator.h \
@@ -417,13 +419,70 @@ TcpClient/CMakeFiles/TcpServer.dir/open_db.cpp.o: \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qstringlist.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qregexp.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qstringmatcher.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qscopedpointer.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qmetatype.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qcontainerfwd.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobjectdefs.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject_impl.h
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qmap.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qhash.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qscopedpointer.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qobject_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_xlocale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/__wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/nl_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_char.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_short.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_caddr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_blksize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_gid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_in_addr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_in_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ino_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_nlink_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_def.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_set.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_clr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_isset.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_copy.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/open_db.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/QSqlDatabase

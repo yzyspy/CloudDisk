@@ -68,7 +68,14 @@ void Mywidget::onRegisterButtonClicked() {
    qInfo() << "onRegisterButtonClicked" ;
    QString psw = this->passwordEdit->text();
    QString name = this->userEdit->text();
+   const char* desc = "regist a user";
+
    PDU *pdu = mkPDU(0);
-   m_socket->write("i am client");
+   pdu->msgType = MSG_TYPE_REGIST_REQUEST;
+   strncpy(pdu->data, name.toStdString().c_str(), 32);
+   strncpy(pdu->data + 32, psw.toStdString().c_str(), 32);
+   m_socket->write(reinterpret_cast<const char *>(pdu), pdu->pduLen);
+   free(pdu);
+   pdu = nullptr;
 }
 

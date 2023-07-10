@@ -190,6 +190,7 @@ TcpClient/TcpServer: TcpClient/CMakeFiles/TcpServer.dir/open_db.cpp.o
 TcpClient/TcpServer: TcpClient/CMakeFiles/TcpServer.dir/build.make
 TcpClient/TcpServer: /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtWidgets.framework/QtWidgets
 TcpClient/TcpServer: /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/QtNetwork
+TcpClient/TcpServer: /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/QtSql
 TcpClient/TcpServer: /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/QtGui
 TcpClient/TcpServer: /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/QtCore
 TcpClient/TcpServer: TcpClient/CMakeFiles/TcpServer.dir/link.txt

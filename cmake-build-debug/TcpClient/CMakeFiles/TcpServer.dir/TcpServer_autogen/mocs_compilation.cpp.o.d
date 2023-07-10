@@ -493,4 +493,8 @@ TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o: \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/EWIEGA46WW/moc_open_db.cpp \
   /Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/EWIEGA46WW/../../../../TcpClient/open_db.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/QSqlDatabase \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qsqldatabase.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsqlglobal.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsql-config.h

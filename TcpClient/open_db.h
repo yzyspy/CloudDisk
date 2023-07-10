@@ -7,12 +7,19 @@
 
 
 #include <QObject>
+#include <QSqlDatabase>
 
 class OpenDB : public QObject{
 
 Q_OBJECT
+private:
+    QSqlDatabase m_db;
 public:
-
+    explicit OpenDB(QObject *parent=0);
+    static OpenDB& getInstance();
+    void init();
+    ~OpenDB();
+    bool handleRegist(const char* name, const char* psw);
 };
 
 

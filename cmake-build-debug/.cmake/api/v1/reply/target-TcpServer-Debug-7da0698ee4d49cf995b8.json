@@ -30,13 +30,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -105,6 +105,10 @@
 				},
 				{
 					"backtrace" : 2,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -169,6 +173,16 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers"
 				}
 			],
 			"language" : "CXX",
@@ -228,6 +242,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/QtNetwork",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/QtSql",
 				"role" : "libraries"
 			},
 			{

@@ -52,7 +52,15 @@
 		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
 		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
 		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
-		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/yzy/Desktop/code/cpp/qt/CloudDisk",
 	"DEP_FILE" : "",
@@ -93,7 +101,14 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -115,6 +130,8 @@
 		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/mkspecs/macx-clang",
 		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework",
 		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework",
+		"/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers",
 		"/usr/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include"
 	],

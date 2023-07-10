@@ -538,4 +538,10 @@ TcpClient/CMakeFiles/TcpServer.dir/main.cpp.o: \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextcursor.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextformat.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qpen.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextoption.h
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/open_db.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/QSqlDatabase \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qsqldatabase.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsqlglobal.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsql-config.h
