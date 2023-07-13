@@ -7,6 +7,12 @@
 
 typedef unsigned int uint;
 
+enum MsgType
+{
+    MSG_TYPE_REGIST_REQUEST = 0,
+    MSG_TYPE_REGIST_RESPONE = 1
+};
+
 struct PDU {
    uint pduLen; //总的数据的大小
    uint msgType; //消息类型

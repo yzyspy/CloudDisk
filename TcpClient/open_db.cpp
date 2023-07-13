@@ -32,11 +32,11 @@ OpenDB::~OpenDB() {
 
 bool OpenDB::handleRegist(const char *name, const char *psw) {
     QSqlQuery query(m_db);
-    query.exec("select *from user_info");
-    while (query.next()) {
-        QVariant x = query.value(1);
-        std::cout << x.toString().toStdString();
-    }
+    QString sql = QString("insert into user_info(name, pwd) values (\'%1\', \'%2\')").arg(name).arg(psw);
 
-    return true;
+    return query.exec(sql);
+//    while (query.next()) {
+//        QVariant x = query.value(1);
+//        std::cout << x.toString().toStdString();
+//    }
 }

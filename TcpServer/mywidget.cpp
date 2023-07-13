@@ -60,8 +60,16 @@ void Mywidget::onConnected() {
 
 
 void Mywidget::onReadyRead() {
-    QByteArray data = m_socket->readAll();
-    qDebug() << "client onReadyRead..." << data;
+    uint pduLen = 0;
+    m_socket->read((char *)(&pduLen), sizeof(uint));
+    int msgLen = pduLen - sizeof(PDU);
+    PDU* pdu = mkPDU(msgLen);
+
+    m_socket->read((char*)pdu + sizeof(uint), pduLen - sizeof(uint));
+
+    char data[64] = {'\0'};
+    strncpy(data, pdu->data, 64);
+    qDebug() << "client regist success " << data;
 }
 
 void Mywidget::onRegisterButtonClicked() {

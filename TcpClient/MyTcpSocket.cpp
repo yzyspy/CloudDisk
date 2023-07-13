@@ -14,8 +14,6 @@ MyTcpSocket::MyTcpSocket(QObject *parent) : QTcpSocket(parent) {
 }
 
 void MyTcpSocket::recvMsg() {
-   // QByteArray data = this->readAll();
-
     uint pduLen = 0;
     this->read((char *)(&pduLen), sizeof(uint));
     qDebug() << "server onReadyRead..." << pduLen;
@@ -30,11 +28,17 @@ void MyTcpSocket::recvMsg() {
     strncpy(psw, pdu->data + 32, 32);
     qDebug() << name << psw << pdu->msgType;
 
-    // OpenDB db = OpenDB::getInstance();
-    OpenDB::getInstance().handleRegist("a", "b");
+    OpenDB& db = OpenDB::getInstance();
+    db.handleRegist(name, psw);
+    free(pdu);
+    pdu = nullptr;
 
-
-    this->write("regist success" );
+    PDU* respPdu = mkPDU(0);
+    respPdu->msgType = MSG_TYPE_REGIST_RESPONE;
+    strncpy(respPdu->data, "regist success", 64 );
+    this->write((const char*)respPdu, respPdu->pduLen);
+    free(respPdu);
+    respPdu = nullptr;
 }
 
 void MyTcpSocket::onDisconnected() {

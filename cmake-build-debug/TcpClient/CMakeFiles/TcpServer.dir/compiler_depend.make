@@ -894,7 +894,13 @@ TcpClient/CMakeFiles/TcpServer.dir/MyTcpSocket.cpp.o: /Users/yzy/Desktop/code/cp
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qsharedpointer.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
-  /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/pdu.h
+  /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/pdu.h \
+  /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/open_db.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/QSqlDatabase \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qsqldatabase.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsqlglobal.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsql-config.h
 
 TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o: TcpClient/TcpServer_autogen/mocs_compilation.cpp \
   TcpClient/TcpServer_autogen/EWIEGA46WW/moc_MyServer.cpp \
@@ -3448,14 +3454,6 @@ TcpClient/CMakeFiles/TcpServer.dir/pdu.cpp.o: /Users/yzy/Desktop/code/cpp/qt/Clo
 
 /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/main.cpp:
 
-/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsql-config.h:
-
-/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsqlglobal.h:
-
-/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qsqldatabase.h:
-
-/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/open_db.h:
-
 /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qpen.h:
 
 /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtextcursor.h:
@@ -3531,6 +3529,14 @@ TcpClient/TcpServer_autogen/EWIEGA46WW/moc_MyTcpSocket.cpp:
 /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qpixelformat.h:
 
 TcpClient/TcpServer_autogen/EWIEGA46WW/moc_MyServer.cpp:
+
+/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsql-config.h:
+
+/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qtsqlglobal.h:
+
+/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtSql.framework/Headers/qsqldatabase.h:
+
+/Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/open_db.h:
 
 /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/MyTcpSocket.cpp:
 
@@ -3676,9 +3682,9 @@ TcpClient/TcpServer_autogen/EWIEGA46WW/moc_MyServer.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
-/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject:
-
 /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtWidgets.framework/Headers/qlineedit.h:
+
+/Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QObject:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
