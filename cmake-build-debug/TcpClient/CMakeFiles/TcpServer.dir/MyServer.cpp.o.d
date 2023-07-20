@@ -446,4 +446,7 @@ TcpClient/CMakeFiles/TcpServer.dir/MyServer.cpp.o: \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qhostaddress.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/QTcpSocket \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QLinkedList \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qlinkedlist.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qdatastream.h \
   /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/MyTcpSocket.h

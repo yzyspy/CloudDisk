@@ -20,6 +20,8 @@ public:
     void init();
     ~OpenDB();
     bool handleRegist(const char* name, const char* psw);
+    bool handleLogin(const char* name, const char* psw);
+    bool handleOffline(const char* name);
 };
 
 

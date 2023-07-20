@@ -8,12 +8,16 @@
 
 #include <QTcpServer>
 #include <QTcpSocket>
+#include <QLinkedList>
+#include "MyTcpSocket.h"
 
 class MyServer : public QTcpServer{
     Q_OBJECT
 public:
   void incomingConnection(qintptr handle) override;
   static MyServer& getInstance();
+public:
+    QList<MyTcpSocket*> socketList;
 };
 
 

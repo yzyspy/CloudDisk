@@ -6,14 +6,15 @@
 #include "MyTcpSocket.h"
 
 void MyServer::incomingConnection(qintptr socketDescriptor) {
-
     MyTcpSocket*  myTcpSocket = new MyTcpSocket(this);
     myTcpSocket->setSocketDescriptor(socketDescriptor);
+
+    socketList.append(myTcpSocket);
 }
 
 MyServer &MyServer::getInstance() {
    static MyServer server ;
-    return server;
+   return server;
 }
 
 

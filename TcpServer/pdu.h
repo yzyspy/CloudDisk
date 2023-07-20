@@ -10,7 +10,9 @@ typedef unsigned int uint;
 enum MsgType
 {
     MSG_TYPE_REGIST_REQUEST = 0,
-    MSG_TYPE_REGIST_RESPONE = 1
+    MSG_TYPE_REGIST_RESPONE = 1,
+    MSG_TYPE_LOGIN_REQUEST = 2,
+    MSG_TYPE_LOGIN_RESPONSE = 3
 };
 
 struct PDU {

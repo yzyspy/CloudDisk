@@ -447,6 +447,10 @@ TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o: \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qhostaddress.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/QTcpSocket \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/QLinkedList \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qlinkedlist.h \
+  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qdatastream.h \
+  /Users/yzy/Desktop/code/cpp/qt/CloudDisk/TcpClient/MyTcpSocket.h \
   /Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/EWIEGA46WW/moc_MyTcpSocket.cpp \
   /Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/EWIEGA46WW/../../../../TcpClient/MyTcpSocket.h \
   /Users/yzy/Desktop/code/cpp/qt/CloudDisk/cmake-build-debug/TcpClient/TcpServer_autogen/EWIEGA46WW/moc_mywidget.cpp \
@@ -471,7 +475,6 @@ TcpClient/CMakeFiles/TcpServer.dir/TcpServer_autogen/mocs_compilation.cpp.o: \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qmatrix.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qpolygon.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qregion.h \
-  /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qdatastream.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtCore.framework/Headers/qline.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qtransform.h \
   /Users/yzy/Desktop/dev/libs/qt5/5.14.2/clang_64/lib/QtGui.framework/Headers/qpainterpath.h \

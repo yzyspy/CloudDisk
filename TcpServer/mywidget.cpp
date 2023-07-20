@@ -47,6 +47,7 @@ void Mywidget::setupUi() {
     setLayout(layout);
 
     connect(registerButton, &QPushButton::clicked, this, &Mywidget::onRegisterButtonClicked);
+    connect(loginButton, &QPushButton::clicked, this, &Mywidget::onLoginButtonClick);
 }
 
 Mywidget::~Mywidget(){
@@ -64,26 +65,50 @@ void Mywidget::onReadyRead() {
     m_socket->read((char *)(&pduLen), sizeof(uint));
     int msgLen = pduLen - sizeof(PDU);
     PDU* pdu = mkPDU(msgLen);
-
     m_socket->read((char*)pdu + sizeof(uint), pduLen - sizeof(uint));
 
-    char data[64] = {'\0'};
-    strncpy(data, pdu->data, 64);
-    qDebug() << "client regist success " << data;
+    switch (pdu->msgType) {
+        case MSG_TYPE_REGIST_RESPONE: {
+            char data[64] = {'\0'};
+            strncpy(data, pdu->data, 64);
+            qDebug() << "用户注册请求返回结果 ： " << data;
+            break;
+        }
+        case MSG_TYPE_LOGIN_RESPONSE:{
+            char data[64] = {'\0'};
+            strncpy(data, pdu->data, 64);
+            qDebug() << "用户登录请求返回结果 ： " << data;
+            break;
+        }
+
+    }
+
+
 }
 
 void Mywidget::onRegisterButtonClicked() {
-   qInfo() << "onRegisterButtonClicked" ;
    QString psw = this->passwordEdit->text();
    QString name = this->userEdit->text();
-   const char* desc = "regist a user";
 
    PDU *pdu = mkPDU(0);
    pdu->msgType = MSG_TYPE_REGIST_REQUEST;
    strncpy(pdu->data, name.toStdString().c_str(), 32);
    strncpy(pdu->data + 32, psw.toStdString().c_str(), 32);
+
    m_socket->write(reinterpret_cast<const char *>(pdu), pdu->pduLen);
-   free(pdu);
-   pdu = nullptr;
+   free(pdu); pdu = nullptr;
+}
+
+void Mywidget::onLoginButtonClick() {
+    QString psw = this->passwordEdit->text();
+    QString name = this->userEdit->text();
+
+    PDU *pdu = mkPDU(0);
+    pdu->msgType = MSG_TYPE_LOGIN_REQUEST;
+    strncpy(pdu->data, name.toStdString().c_str(), 32);
+    strncpy(pdu->data + 32, psw.toStdString().c_str(), 32);
+
+    m_socket->write((char*)pdu, pdu->pduLen);
+    free(pdu); pdu = nullptr;
 }
 

@@ -25,4 +25,5 @@ public:
     void onReadyRead();
 
     void onRegisterButtonClicked();
+    void onLoginButtonClick();
 };
